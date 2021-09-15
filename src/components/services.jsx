@@ -1,4 +1,4 @@
-export const Services = (props) => {
+function Services(props) {
   return (
     <div id='services' className='text-center'>
       <div className='container'>
@@ -27,3 +27,5 @@ export const Services = (props) => {
     </div>
   )
 }
+
+export default Services
